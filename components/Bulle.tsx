@@ -10,7 +10,9 @@ export default function Bulle() {
         alt="une bulle"
         className="inline-block"
       />{" "}
-      <span className="inline-block">Créer un site web vraiment unique</span>
+      <span className="inline-block">
+        Créer un site web <span className="underline">vraiment</span> unique
+      </span>
     </h1>
   );
 }
