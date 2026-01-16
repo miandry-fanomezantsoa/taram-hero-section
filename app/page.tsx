@@ -6,8 +6,15 @@ export default function Home() {
     <div className="min-h-screen bg-dark flex justify-center items-center text-white px-4 py-8">
       <div className="flex flex-col items-center gap-8">
         <Bulle />
-        <p>
-          Votre site doit donner envie de rester, pas de revenir en arrière.
+        <p className="text-center text-3xl font-bold">
+          Votre <span className="text-primary">site</span> doit{" "}
+          <span className="text-primary">donner envie</span> de{" "}
+          <span className="text-primary">rester</span>, pas de{" "}
+          <span className="line-through decoration-dark">
+            <span className="text-primary">revenir</span> en{" "}
+            <span className="text-primary">arrière</span>
+          </span>
+          .
         </p>
         <p>
           Design moderne, SEO solide, Suivi complet : on construit un site qui
