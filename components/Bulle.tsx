@@ -10,7 +10,7 @@ export default function Bulle() {
         alt="une bulle"
         className="inline-block"
       />{" "}
-      <span className="inline-block">
+      <span className="inline-block overflow-hidden md:overflow-auto text-nowrap md:text-wrap text-ellipsis">
         Créer un site web <span className="underline">vraiment</span> unique
       </span>
     </h1>
