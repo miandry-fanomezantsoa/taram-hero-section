@@ -1,6 +1,8 @@
 import Bulle from "@/components/Bulle";
 import Button from "@/components/Button";
 import Image from "next/image";
+import { FaCalendarAlt } from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -26,7 +28,13 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <div className="relative inline-block">
-            <Button className="text-2xl">Prendre RDV</Button>
+            <Button
+              icon={<FaCalendarAlt className="inline-block mr-2" />}
+              iconPos="before"
+              className="text-2xl"
+            >
+              Prendre RDV
+            </Button>
             <Image
               src="/images/click.png"
               width={100}
@@ -35,7 +43,13 @@ export default function Home() {
               className="hidden md:inline-block absolute -left-10 -bottom-7"
             />
           </div>
-          <Button variant="secondary">Découvrir nos projets</Button>
+          <Button
+            icon={<FaArrowDown className="inline-block ml-2" />}
+            iconPos="after"
+            variant="secondary"
+          >
+            Découvrir nos projets
+          </Button>
         </div>
       </div>
     </div>
