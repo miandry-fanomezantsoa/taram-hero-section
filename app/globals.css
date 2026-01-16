@@ -10,6 +10,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: oklch(0.8203 0.1217 163.31);
+  --color-primary-dark: oklch(0.6275 0.1136 167.9);
+  --color-dark: oklch(0.2264 0 0);
 }
 
 @media (prefers-color-scheme: dark) {
