@@ -17,11 +17,11 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       className={clsx([
-        "inline-block w-full px-6 py-4 rounded-xl text-black text-xl font-bold",
+        className,
+        "inline-block w-full px-6 py-4 md:py-2 rounded-xl text-black text-xl font-bold",
         variant === "primary"
           ? "bg-linear-to-l from-primary-dark to-primary"
           : "text-primary outline",
-        className,
       ])}
     >
       {iconPos === "before" && icon} {children} {iconPos === "after" && icon}
