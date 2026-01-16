@@ -13,6 +13,7 @@
   --color-primary: oklch(0.8203 0.1217 163.31);
   --color-primary-dark: oklch(0.6275 0.1136 167.9);
   --color-dark: oklch(0.2264 0 0);
+  --shadow-bulle: 0 0 15px 0.5px var(--color-primary);
 }
 
 @media (prefers-color-scheme: dark) {
