@@ -16,9 +16,11 @@ export default function Home() {
           </span>
           .
         </p>
-        <p>
-          Design moderne, SEO solide, Suivi complet : on construit un site qui
-          retient vos visiteurs et vous apporte des résultats.
+        <p className="text-center text-gray-300">
+          Design moderne, <br />
+          SEO solide, Suivi complet : <br />
+          on construit un site qui retient vos visiteurs et vous apporte des
+          résultats.
         </p>
 
         <div>
