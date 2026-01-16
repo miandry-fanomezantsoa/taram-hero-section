@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-dark flex justify-center items-center text-white px-4 md:px-10 py-8">
-      <div className="flex flex-col items-center gap-10 lg:max-w-2xl">
+      <div className="flex flex-col items-center gap-10 lg:gap-15 lg:max-w-2xl">
         <Bulle />
         <p className="text-center text-3xl md:text-5xl font-bold">
           Votre <span className="text-primary">site</span> doit{" "}

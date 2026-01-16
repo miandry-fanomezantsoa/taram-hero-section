@@ -22,6 +22,8 @@ const Button: React.FC<ButtonProps> = ({
         variant === "primary"
           ? "bg-linear-to-l from-primary-dark to-primary"
           : "text-primary outline",
+        variant === "primary" &&
+          "transition-all ease-in-out duration-150 hover:scale-105",
       ])}
     >
       {iconPos === "before" && icon} {children} {iconPos === "after" && icon}
