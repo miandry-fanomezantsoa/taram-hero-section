@@ -1,10 +1,11 @@
 import Bulle from "@/components/Bulle";
+import Button from "@/components/Button";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-dark flex justify-center items-center text-white px-4 py-8">
-      <div className="flex flex-col items-center gap-8">
+      <div className="flex flex-col items-center gap-10">
         <Bulle />
         <p className="text-center text-3xl font-bold">
           Votre <span className="text-primary">site</span> doit{" "}
@@ -23,9 +24,9 @@ export default function Home() {
           résultats.
         </p>
 
-        <div>
-          <button>Prendre RDV</button>
-          <button>Découvrir nos projets</button>
+        <div className="flex flex-col gap-4">
+          <Button>Prendre RDV</Button>
+          <Button variant="secondary">Découvrir nos projets</Button>
         </div>
       </div>
     </div>
